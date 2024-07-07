@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "EstateManager.Controllers.OnboardingController",
+    "Method": "GetUser",
+    "RelativePath": "api/Onboarding/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EstateManager.Controllers.OnboardingController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Onboarding/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EstateManager.Dto.UserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
